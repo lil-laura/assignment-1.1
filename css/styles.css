@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 16px;
+      line-height: 1.5;
+      background: rgb(190,5,242);
+    background: linear-gradient(45deg, rgba(190,5,242,1) 0%, rgba(255,250,0,1) 50%, rgba(190,5,242,1) 100%);
+}
+h1, h2,h3, h4, h5, h6{
+    font-family: "Gowun Batang", serif;
+      font-weight: 400;
+      font-style: normal;
+      color: grey;
+      border-bottom: dotted 3px grey;
+      width: 50%;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+  font-size: 2rem;
+}
+h3{
+    text-align: center;
+    margin-left: 15rem;
+    margin-right: auto;
+}
+.wrapper{
+    width: 75%;
+    background-color: #ffffff;
+    margin:2rem auto;
+    padding: 3.5rem;
+    border-radius: 3rem;
+    box-shadow: 3px -3px 9px black;
+}
+header, footer{
+    background-color: rgba(245, 244, 244, 0.924);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.intro{
+    font-size: 1.3rem;
+    font-style: italic;
+    line-height: 1.8;
+}
+.Brittany ul li{
+    font-size: 1.125rem;
+    line-height: 1.75;
+    list-style-type: decimal;
+    margin-left: .5px;
+    margin-right: auto;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: purple;
+    text-decoration: none;
+}
+.gallery img{
+    width: 32%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 25 5%;
+    display: inline-block;
+    align-items: center;
+    border: solid 10px yellow;
+}
+nav{
+    text-align: center;
+}
+nav li{
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+}
+.table table{
+    border-collapse: collapse;
+    margin-bottom: 4rem;
+    margin-left: 22rem;
+}
+.table table td{
+    padding: .8rem 1.2rem;
+    border: solid 2px yellow; 
+    background-color: rgb(245, 244, 244, 0.924);
+}
+.table table th{
+    background-color: yellow;
+    padding: 5px;
+}
+.eprf{
+    width: 50%;
+}
